@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>.::Lista de Tareas::.</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
+        <script src="prueba.js" defer></script>
+    </head>
+    <body>
+        <div class="container lista_tareas_vacia">
+            <header>
+                <div class="theme_toogle">
+                    <button class="theme_toogle_btn"></button>
+                </div>
+                <span class="heading">Mi Día</span>
+            </header>
+            <section class="tareas">
+                <ul id="listaTareas"></ul>
+            </section>
+            <footer>
+                <form id="nueva_tarea_form">
+                    <input type="text" name="nueva_tarea_input" id="nueva_tarea_input" placeholder="Crear nueva tarea" value=""/>
+                <button id="nueva_tarea_input_btn" type="submit"></button>
+                </form>
+                </footer>
+        </div>
+    </body>
+</html>
